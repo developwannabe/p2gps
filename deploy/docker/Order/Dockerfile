@@ -10,4 +10,4 @@ COPY drop/application.properties application.properties
 
 EXPOSE 8080
 
-ENTRYPOINT sh run.sh
+ENTRYPOINT sh usr/local/app/run.sh
